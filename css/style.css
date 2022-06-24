@@ -1038,12 +1038,7 @@ up-btn:focus {
 .contact-wrap {
   position: relative;
 }
-#googlemaps {
-  width: 100%;
-  height: 300px;
-  left: 15px;
-  bottom: 25px;
-}
+
 .contact {
   margin-top: -20px !important;
 }
