@@ -1,545 +1,334 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Website Title -->
-    <title>Yaswanth - Professional web designer</title>
-    <!-- Bootstrap -->
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <!-- Font-Awesome -->
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link
-      href="assets/font-awesome/css/font-awesome.min.css"
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
       rel="stylesheet"
     />
-    <!-- Lightbox -->
-    <link href="assets/lightbox/css/lightbox.css" rel="stylesheet" />
-    <!-- Text Rotator-->
-    <link href="assets/textrotator/simpletextrotator.css" rel="stylesheet" />
-    <!-- FlexSlider -->
-    <link href="assets/flexslider/flexslider.css" rel="stylesheet" />
-    <!-- Theme Style -->
-    <link href="css/style.css" rel="stylesheet" />
-    <!-- Animations -->
-    <link href="css/animate.css" rel="stylesheet" />
-    <!-- Custom Favicon -->
-    <link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="assets/html5shiv/html5shiv.js"></script>
-      <script src="assets/respond/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
   </head>
-  <body id="top">
-    <!-- ****************************** Preloader ************************** -->
-    <div id="preloader"></div>
 
-    <!-- ==========================
-        HEADER SECTION 
-        =========================== -->
-    <header id="home">
-      <!-- creative menu -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="menu-wrap">
-            <nav class="menu">
-              <!-- Menu Links -->
-              <div class="icon-list">
-                <a href="index.html#home"
-                  ><i class="fa fa-fw fa-home"></i><span>Home</span></a
-                >
-                <a href="index.html#about"
-                  ><i class="fa fa-fw fa-quote-left"></i><span>About</span></a
-                >
-                <a href="index.html#service"
-                  ><i class="fa fa-fw fa-laptop"></i><span>Experience</span></a
-                >
-                <a href="index.html#portfolio"
-                  ><i class="fa fa-fw fa-picture-o"></i
-                  ><span>Portfolio</span></a
-                >
-                <!-- <a href="index.html#blog"
-                  ><i class="fa fa-fw fa-rss"></i><span>Blog</span></a
-                > -->
-                <a href="index.html#contact"
-                  ><i class="fa fa-fw fa-envelope-o"></i><span>Contact</span></a
-                >
-              </div>
-            </nav>
-          </div>
-          <button class="menu-button" id="open-button"></button
-          ><!-- menu button -->
-        </div>
-        <!--/row-->
+  <body>
+    <div id="mobile-menu-open" class="shadow-large">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+      <div id="mobile-menu-close">
+        <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
       </div>
-      <!--/container-->
-      <!-- Header Image -->
-      <section class="hero" id="hero">
-        <div class="container">
-          <!-- Slider Button (don't edit!)-->
-          <div class="row">
-            <div class="col-md-12 text-right navicon">
-              <a id="nav-toggle" class="nav_slide_button" href="index.html#"
-                ><span></span
-              ></a>
-            </div>
-          </div>
-          <!-- HEADER HEADLINE -->
-          <div class="row">
-            <div class="col-md-8 col-md-offset-1 inner">
-              <h1 class="animated fadeInDown">
-               YASWANTH
-              </h1>
-              <h1 class="animated fadeInDown" style="padding-top: 20px">
-                TONDEPU
-              </h1>
-              <!-- Title -->
-              <h3 class="animated fadeInUp delay-05s">
-                <span class="rotate"
-                  >Web Developer,Graduate Student at UT Arlington</span
-                >
-              </h3>
-              <!-- Text Rotator -->
-            </div>
-          </div>
-          <!-- Learn More Button -->
-          <!-- <div class="row">
-            <div class="col-md-6 col-md-offset-3 text-center">
-              <a href="index.html#about" class="scrollto wow fadeInUp delay-5s">
-                <p>SEE MORE</p>
-                <p class="scrollto--arrow">
-                  <img src="img/scroll-down.png" alt="scroll down arrow" />
-                </p>
-              </a>
-            </div>
-          </div> -->
-        </div>
-      </section>
-      <!-- Header Image End -->
+      <ul id="menu" class="shadow">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#experience">Experience</a>
+        </li>
+        <li>
+          <a href="#education">Education</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </header>
-    <!-- ==========================
-        HEADER SECTION END  
-        =========================== -->
+    <!-- End header -->
 
-    <!-- ==========================
-        ABOUT SECTION  
-        =========================== -->
-    <section class="intro text-center section-padding color-bg" id="about">
+    <div id="lead">
+      <div id="lead-content">
+        <h1>Yaswanth Tondepu</h1>
+        <h2>Software Engineer</h2>
+        <a href="#" class="btn-rounded-white">Download Resume</a>
+      </div>
+      <!-- End #lead-content -->
+
+      <div id="lead-overlay"></div>
+
+      <div id="lead-down">
+        <span>
+          <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </span>
+      </div>
+      <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
       <div class="container">
-        <!-- WELCOME TEXT -->
         <div class="row">
-          <div class="col-md-8 col-md-offset-2 wp1">
-            <h1 class="arrow">A little <span>about</span> me</h1>
-            <!-- Headline -->
-            <!-- about / welcome text -->
+          <div class="col-md-4">
+            <h2 class="heading">About Me</h2>
+          </div>
+          <div class="col-md-8">
             <p>
               I enjoy creating things that live on the internet, whether that be
               websites, applications, or anything in between. My goal is to
               always build products that provide pixel-perfect, performant
               experiences.
             </p>
-            <p>Here are a few technologies I've been working with recently:</p>
-            <div class="arrange">
-              <ul>
-                <li>React</li>
-                <li>Angular</li>
-                <li>Angular Material</li>
-                <li>Redux</li>
-                <li>Styled Components</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>TypeScript</li>
-                <li>Java</li>
-              </ul>
-
-              <ul>
-                <li>Python</li>
-                <li>MySQL</li>
-                <li>SQL</li>
-                <li>Spring Boot</li>
-                <li>Flask</li>
-                <li>PHP</li>
-                <li>Git</li>
-                <li>Agile</li>
-                <li>Jira</li>
-                <li>TFS</li>
-              </ul>
-            </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+    <!-- End #about -->
 
-    <!-- ==========================
-        SERVICE SECTION 
-        =========================== -->
-    <section class="features text-center section-padding" id="service">
+    <div id="experience" class="background-alt">
+      <h2 class="heading">Experience</h2>
+      <div id="experience-timeline">
+        <div data-date="March 2019 – December 2020">
+          <h3>Orion Innovation</h3>
+          <h4>Software Engineer</h4>
+          <p>
+            <ul>
+                <li>Involved in various phases of software development lifecycle (SDLC) including design, development, implementation.</li>
+                <li>Designed and developed the application using Agile Scrum methodology by breaking down the project to several sprints.</li>
+                <li>Developed User Interface using the HTML5, CSS3, Angular, Angular Material and JavaScript.</li>
+                <li>Integrated UI with REST web services.</li>
+                <li>Worked on production issues, used JIRA for issue tracking.</li>
+                <li>Developed various screens for the front end using Angular and used various predefined components from NPM.</li>
+                <li>Converted a legacy site UI to a new and responsive design using HTML and CSS.</li>
+            </ul>
+          </p>
+        </div>
+
+        <!-- <div data-date="September 2015 – September 2016">
+          <h3>Employer Name</h3>
+          <h4>Job Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+            nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+            libero. Morbi dapibus porta quam laoreet placerat.
+          </p>
+        </div>
+
+        <div data-date="September 2015 – September 2016">
+          <h3>Employer Name</h3>
+          <h4>Job Title</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+            in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec
+            nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur
+            libero. Morbi dapibus porta quam laoreet placerat.
+          </p>
+        </div> -->
+      </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+      <h2 class="heading">Education</h2>
+      <div class="education-block">
+        <h3>The University of Texas at Arlington</h3>
+        <span class="education-date">Jan 2021 - Present</span>
+        <h4>Master of Science in Computer Science</h4>
+        <!-- <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in
+          iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla
+          commodo malesuada sit amet vel lacus. Fusce eget efficitur libero.
+          Morbi dapibus porta quam laoreet placerat.
+        </p> -->
+      </div>
+      <!-- End .education-block -->
+
+      <div class="education-block">
+        <h3>RMK Engineering College</h3>
+        <span class="education-date">June 2015 - May 2019</span>
+        <h4>Bachelor of Engineering in Computer Science and Engineering</h4>
+        <!-- <ul>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+        </ul> -->
+      </div>
+      <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+      <h2 class="heading">Projects</h2>
       <div class="container">
-        <!-- Headline -->
         <div class="row">
-          <div class="col-md-12">
-            <h1 class="arrow">Work Experience</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12">
-            <div class="services">
-              <!-- Service Box 1 -->
-              <div class="col-md-4"></div>
-              <div class="col-md-4 wp2 item">
-                <div class="icon">
-                  <img
-                    src="./img/orion.png"
-                    alt="img"
-                    style="
-                      clip-path: circle();
-                      border-radius: 50%;
-                      width: 150px;
-                      margin-bottom: 10px;
-                    "
-                  />
-                </div>
-                <div style="font-size: 27px; font-weight: bold;color: #353535 ">Orion Innovation</div>
-                <!-- Title -->
-                <p>Responsibilities:
-                  <ul class="responsibilities">
-                    <li>	Involved in various phases of software development lifecycle (SDLC) including design, development, implementation.</li>
-                    <li>Designed and developed the application using Agile Scrum methodology by breaking down the project to several sprints.</li>
-                    <li>	Developed User Interface using the HTML5, CSS3, Angular, Angular Material and JavaScript.</li>
-                      <li>Integrated UI with REST web services.</li>
-                    <li>	Worked on production issues, used JIRA for issue tracking.</li>
-                      <li>Developed various screens for the front end using Angular and used various predefined components from NPM.</li>
-                      <li>Converted a legacy site UI to a new and responsive design using HTML and CSS.</li>
-
-                  </ul>
-                </p>
-                <!-- Description -->
-              </div>
-              <!-- Service Box 2 -->
-               <div class="col-md-4"></div>
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/lunamar.png" class="img-resize"/>
             </div>
-            <div class="clearfix"></div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-   
-    <!-- ==========================
-        ABOUT SECTION END
-        =========================== -->
-
-    <!-- ==========================
-        PORTFOLIO SECTION
-    =========================== -->
-    <section class="swag text-center" id="portfolio">
-      <div class="container">
-        <!-- Headline -->
-        <div class="row">
-          <h1 class="arrow">Things I've <span>Built</span></h1>
-        </div>
-      </div>
-    </section>
-
-    <div class="container">
-      
-        <!-- PORTFOLIO ITEM 1 -->
-        <div class="col-12">
-          <div class="pro-div">
-            <div class="img">
-              <a
-                href="https://vxt9613.uta.cloud/lunamarManagement/#/"
-                target="_blank"
-                ><img
-                  class="grayscale"
-                  src="./img/lunamar.png"
-                  alt="lunamar"
-                  style="width: 500px;"
-              /></a>
-            </div>
-
-            <div>
-              <a
-                href="https://vxt9613.uta.cloud/lunamarManagement/#/"
-                target="_blank"
-                >
-              <div style="font-size: 20px; font-weight: bold;">Lunamar Management</div>
-              </a>
-              <div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Lunamar Management</h3>
                 <p>Portal to manage an apartment</p>
                 <p>4 different roles: Admin, Manager, Resident, Visitor with unique functionalities</p>
                 <p>Chat functionality</p>
                 <p>Ability to upload pictures of housing by residents</p>
-              </div>
+                <p>and many more...</p>
+              <a href="https://vxt9613.uta.cloud/lunamarManagement/#/"  target="_blank">View Project</a>
             </div>
+            <!-- End .project-info -->
           </div>
-        </div>
-        
-        <!-- PORTFOLIO ITEM 1 END -->
+          <!-- End .project -->
 
-
-           <!-- PORTFOLIO ITEM 2 -->
-        <div class="col-12">
-          <div class="pro-div">
-            <div class="img">
-              <a
-                href="https://beatful-music.netlify.app/"
-                target="_blank"
-                ><img
-                  class="grayscale"
-                  src="./img/beatful.png"
-                  alt="beatful"
-                  style="width: 500px;"
-              /></a>
+          <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/beatful.png" class="img-resize" />
             </div>
-
-            <div>
-              <a
-                href="https://beatful-music.netlify.app/"
-                target="_blank"
-                >
-              <div style="font-size: 20px; font-weight: bold;">Beatful</div>
-              </a>
-              <div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Beatful - A Music Player</h3>
                 <p>Music Player</p>
                 <p>Ability to play, pause the song</p>
-                  <p>Change to the next or previous song using the buttons.</p>
-                  <p>Skip to a specific timeline in the song using the seek bar.</p>
+                <p>Change to the next or previous song using the buttons.</p>
+                <p>Skip to a specific timeline in the song using the seek bar.</p>
 
-              </div>
+              <a href="https://beatful-music.netlify.app/"  target="_blank">View Project</a>
             </div>
+            <!-- End .project-info -->
           </div>
-        </div>
-        
-        <!-- PORTFOLIO ITEM 2 END -->
+          <!-- End .project -->
 
-
-          <!-- PORTFOLIO ITEM 3 -->
-        <div class="col-12">
-          <div class="pro-div">
-            <div class="img">
-              <a
-                href="https://ignite-find-games.netlify.app/"
-                target="_blank"
-                ><img
-                  class="grayscale"
-                  src="./img/ignite.png"
-                  alt="beatful"
-                  style="width: 500px;"
-              /></a>
+           <div class="project shadow-large">
+            <div class="project-image">
+              <img src="images/ignite.png" class="img-resize" />
             </div>
-
-            <div>
-              <a
-                href="https://ignite-find-games.netlify.app/"
-                target="_blank"
-                >
-              <div style="font-size: 20px; font-weight: bold;">Ignite</div>
-              </a>
-              <div>
+            <!-- End .project-image -->
+            <div class="project-info">
+              <h3>Ignite - Find Games</h3>
                 <p>Website that helps the user to find the most popular games and upcoming games. </p>
                 <p>Users can also find information about the platforms on which the games are available</p>
-                  <p>Users can also see the ratings for the games. </p>
-                  <p>See the description and images of the games.</p>
-                  <p>Search for games</p>
+                <p>Users can also see the ratings for the games. </p>
+                <p>See the description and images of the games.</p>
+                <p>Search for games</p>
 
-              </div>
+              <a href="https://ignite-find-games.netlify.app/"  target="_blank">View Project</a>
             </div>
+            <!-- End .project-info -->
           </div>
-        </div>
-        
-        <!-- PORTFOLIO ITEM 3 END -->
-
-
-       
-
-      
-   
-    </div>
-    <!--/.container-->
-    <!-- ==========================
-        PORTFOLIO SECTION END
-        =========================== -->
-
-    <!-- ==========================
-        CUSTOM SPACER
-        =========================== -->
-    <div class="spacer-cta text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <a href="index.html#contact" class="outline-btn">hire yaswanth</a>
-          </div>
+          <!-- End .project -->
         </div>
       </div>
     </div>
-    <!-- ==========================
-        CUSTOM SPACER END
-        =========================== -->
- 
-    <!-- ==========================
-        CONTACT SECTION
-        =========================== -->
-    <section class="text-center section-padding contact-wrap" id="contact">
-      <!-- To Top Button -->
-      <a href="index.html#top" class="up-btn"
-        ><i class="fa fa-chevron-up"></i
-      ></a>
+    <!-- End #projects -->
+
+    <div id="skills">
+      <h2 class="heading">Skills</h2>
+      <ul>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Angular Material</li>
+        <li>Redux</li>
+        <li>Styled Components</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>MySQL</li>
+        <li>SQL</li>
+        <li>Spring Boot</li>
+        <li>Flask</li>
+        <li>PHP</li>
+        <li>Git</li>
+        <li>Agile</li>
+        <li>Jira</li>
+        <li>TFS</li>
+      </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+      <h2>Get in Touch</h2>
+      <div id="contact-form">
+        <form method="POST" action="https://formspree.io/yaswanth@duck.com">
+          <input
+            type="hidden"
+            name="_subject"
+            value="Contact request from personal website"
+          />
+          <input
+            type="email"
+            name="_replyto"
+            placeholder="Your email"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Your message"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
       <div class="container">
-        <!-- Headline -->
         <div class="row">
-          <div class="col-md-12">
-            <h1 class="arrow">Drop <span>me</span> a line</h1>
+          <div class="col-sm-5 copyright">
+            <!-- <p>
+              Copyright &copy; <span id="current-year">2022</span> YOUR NAME
+            </p> -->
           </div>
-        </div>
-        <div class="row contact-details">
-          <!-- Adress Box -->
-          <div class="col-md-4">
-            <!-- <div class="dark-box box-hover">
-              <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-              <p></p>
-            </div> -->
+          <div class="col-sm-2 top">
+            <span id="to-top">
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+            </span>
           </div>
-           <!-- E-Mail Box -->
-          <div class="col-md-4">
-            <div class="dark-box box-hover">
-              <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-              <p><a href="mailto:yaswanth@duck.com">yaswanth@duck.com</a></p>
-            </div>
-          </div>
-          <!-- Phone Number Box -->
-          <div class="col-md-4">
-            <!-- <div class="dark-box box-hover">
-              <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-              <p></p>
-            </div> -->
-          </div>
-         
-        </div>
-      
-        <!-- Social Buttons - use font-awesome, past in what you want -->
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="social-buttons">
+          <div class="col-sm-5 social">
+            <ul>
               <li>
-                <a href="https://www.linkedin.com/in/yaswanth-tondepu/" class="social-btn"
-                  ><i class="fa fa-linkedin"></i
+                <a href="https://github.com/yaswanthtondepu" target="_blank"
+                  ><i class="fa fa-github" aria-hidden="true"></i
                 ></a>
               </li>
+              <!-- <li>
+                <a href="https://stackoverflow.com/" target="_blank"
+                  ><i class="fa fa-stack-overflow" aria-hidden="true"></i
+                ></a>
+              </li> -->
               <li>
-                <a href="https://github.com/yaswanthtondepu" class="social-btn"
-                  ><i class="fa fa-github"></i
+                <a href="https://www.linkedin.com/in/yaswanth-tondepu/" target="_blank"
+                  ><i class="fa fa-linkedin" aria-hidden="true"></i
                 ></a>
               </li>
-              
+              <!-- <li>
+                <a href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa fa-facebook" aria-hidden="true"></i
+                ></a>
+              </li> -->
+              <!-- <li>
+                <a href="https://twitter.com/" target="_blank"
+                  ><i class="fa fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li> -->
+              <!-- <li>
+                <a href="https://plus.google.com/" target="_blank"
+                  ><i class="fa fa-google-plus" aria-hidden="true"></i
+                ></a>
+              </li> -->
             </ul>
           </div>
         </div>
       </div>
-    </section>
-    <!-- ==========================
-        CONTACT SECTION END
-        =========================== -->
+    </footer>
+    <!-- End footer -->
 
-  
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- SmoothScroll -->
-    <script
-      type="text/javascript"
-      src="assets/smoothscroll/smoothscroll.js"
-    ></script>
-    <!-- Bootstrap -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <!-- Waypoints -->
-    <script src="js/waypoints.min.js"></script>
-    <!-- classie.js -->
-    <script src="js/classie.js"></script>
-    <!-- FlexSlider -->
-    <script src="assets/flexslider/jquery.flexslider.js"></script>
-    <!-- Modernizr -->
-    <script src="js/modernizr.js"></script>
-    <!-- Text Rotator -->
-    <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
-    <!-- Lightbox.js -->
-    <script src="assets/lightbox/js/lightbox.min.js"></script>
-    <!-- Google Maps -->
-    <script
-      type="text/javascript"
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"
-    ></script>
-    <!-- Theme JavaScript Core -->
-    <script src="js/main.js"></script>
-    <script src="js/script.js"></script>
-
-    <!-- GOOGLE MAPS DATA -->
-    <script type="text/javascript">
-      // When the window has finished loading create our google map below
-      google.maps.event.addDomListener(window, "load", init);
-
-      function init() {
-        // Basic options for a simple Google Map
-        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-        var mapOptions = {
-          // How zoomed in you want the map to start at (always required)
-          zoom: 15,
-
-          scrollwheel: false,
-
-          // The latitude and longitude to center the map (always required)
-          center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York
-
-          // How you would like to style the map.
-          // This is where you would paste any style found on Snazzy Maps.
-          styles: [
-            {
-              featureType: "water",
-              stylers: [{ color: "#F2F2F2" }, { visibility: "on" }],
-            },
-            { featureType: "landscape", stylers: [{ color: "#FFFFFF" }] },
-            {
-              featureType: "road",
-              stylers: [{ saturation: -100 }, { lightness: 45 }],
-            },
-            {
-              featureType: "road.highway",
-              stylers: [{ visibility: "simplified" }],
-            },
-            {
-              featureType: "road.arterial",
-              elementType: "labels.icon",
-              stylers: [{ visibility: "off" }],
-            },
-            {
-              featureType: "administrative",
-              elementType: "labels.text.fill",
-              stylers: [{ color: "#ADADAD" }],
-            },
-            { featureType: "transit", stylers: [{ visibility: "off" }] },
-            { featureType: "poi", stylers: [{ visibility: "off" }] },
-          ],
-        };
-
-        // Get the HTML DOM element that will contain your map
-        // We are using a div with id="map" seen below in the <body>
-        var mapElement = document.getElementById("googlemaps");
-
-        // Create the Google Map using out element and options defined above
-        var map = new google.maps.Map(mapElement, mapOptions);
-      }
-    </script>
-
-    <!-- TEXT ROTATOR SETTINGS -->
-    <script type="text/javascript">
-      $(".rotate").textrotator({
-        animation: "fade", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
-        separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
-        speed: 2000, // How many milliseconds until the next word show.
-      });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
   </body>
 </html>
