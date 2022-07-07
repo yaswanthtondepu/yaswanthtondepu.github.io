@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Website Title -->
-    <title>Yaswanth</title>
+    <title>Yaswanth - Professional web designer</title>
     <!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <!-- Font-Awesome -->
@@ -90,18 +90,10 @@
           <div class="row">
             <div class="col-md-8 col-md-offset-1 inner">
               <h1 class="animated fadeInDown">
-                Y<span style="color: #e04343">A</span>S<span
-                  style="color: #609781"
-                  >W</span
-                >A<span style="color: #758069">N</span
-                ><span style="color: #609781">T</span>H
+               YASWANTH
               </h1>
               <h1 class="animated fadeInDown" style="padding-top: 20px">
-                T<span style="color: #e04343">O</span>N<span
-                  style="color: #609781"
-                  >D</span
-                >E<span style="color: #758069">P</span
-                ><span style="color: #609781">U</span>
+                TONDEPU
               </h1>
               <!-- Title -->
               <h3 class="animated fadeInUp delay-05s">
@@ -113,7 +105,7 @@
             </div>
           </div>
           <!-- Learn More Button -->
-          <div class="row">
+          <!-- <div class="row">
             <div class="col-md-6 col-md-offset-3 text-center">
               <a href="index.html#about" class="scrollto wow fadeInUp delay-5s">
                 <p>SEE MORE</p>
@@ -122,7 +114,7 @@
                 </p>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
       <!-- Header Image End -->
@@ -475,10 +467,72 @@
     <script src="assets/textrotator/jquery.simple-text-rotator.js"></script>
     <!-- Lightbox.js -->
     <script src="assets/lightbox/js/lightbox.min.js"></script>
-
+    <!-- Google Maps -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDeKBBPJTG3v5w3cNPAgM6ZsJiPyL1mP_o&amp;sensor=false"
+    ></script>
     <!-- Theme JavaScript Core -->
     <script src="js/main.js"></script>
     <script src="js/script.js"></script>
+
+    <!-- GOOGLE MAPS DATA -->
+    <script type="text/javascript">
+      // When the window has finished loading create our google map below
+      google.maps.event.addDomListener(window, "load", init);
+
+      function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+          // How zoomed in you want the map to start at (always required)
+          zoom: 15,
+
+          scrollwheel: false,
+
+          // The latitude and longitude to center the map (always required)
+          center: new google.maps.LatLng(40.68961985411178, -74.01618003845215), // New York
+
+          // How you would like to style the map.
+          // This is where you would paste any style found on Snazzy Maps.
+          styles: [
+            {
+              featureType: "water",
+              stylers: [{ color: "#F2F2F2" }, { visibility: "on" }],
+            },
+            { featureType: "landscape", stylers: [{ color: "#FFFFFF" }] },
+            {
+              featureType: "road",
+              stylers: [{ saturation: -100 }, { lightness: 45 }],
+            },
+            {
+              featureType: "road.highway",
+              stylers: [{ visibility: "simplified" }],
+            },
+            {
+              featureType: "road.arterial",
+              elementType: "labels.icon",
+              stylers: [{ visibility: "off" }],
+            },
+            {
+              featureType: "administrative",
+              elementType: "labels.text.fill",
+              stylers: [{ color: "#ADADAD" }],
+            },
+            { featureType: "transit", stylers: [{ visibility: "off" }] },
+            { featureType: "poi", stylers: [{ visibility: "off" }] },
+          ],
+        };
+
+        // Get the HTML DOM element that will contain your map
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById("googlemaps");
+
+        // Create the Google Map using out element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
+      }
+    </script>
+
     <!-- TEXT ROTATOR SETTINGS -->
     <script type="text/javascript">
       $(".rotate").textrotator({
