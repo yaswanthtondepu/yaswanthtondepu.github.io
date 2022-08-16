@@ -1,0 +1,133 @@
+{
+    "basic_info": {
+      "description_header": "Hi",
+      "description": "👋 I'm Yaswanth Tondepu.I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.",
+      "section_name": {
+        "about": "About me",
+        "projects": "Projects",
+        "skills": "Skills",
+        "experience": "Education & Experience"
+      }
+    },
+    "projects": [
+      {
+        "title": "Lunamar Management",
+        "description": "",
+        "images": [
+          "images/portfolio/lunamar/p1.png",
+          "images/portfolio/lunamar/p2.png",
+          "images/portfolio/lunamar/p3.png"
+        ],
+        "url": "https://vxt9613.uta.cloud/lunamarManagement/#/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-mysql-plain", 
+            "name": "MySQL"
+          },
+          {
+            "class": "devicon-php-plain",
+            "name": "PHP"
+          }
+        ]
+      },
+      {
+        "title": "Beatful - A Music Player",
+        "description": "Music Player Ability to play, pause the song Change to the next or previous song using the buttons. Skip to a specific timeline in the song using the seek bar.",
+        "images": [
+          "images/portfolio/beatful/p1.png",
+          "images/portfolio/beatful/p2.png"
+        ],
+        "url": "https://beatful-music.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
+        "title": "Ignite - Find Games",
+        "description": "Website that helps the user to find the most popular games and upcoming games. Users can also find information about the platforms on which the games are available Users can also see the ratings for the games. See the description and images of the games. Search for games",
+        "images": [
+          "images/portfolio/ignite/p1.png",
+          "images/portfolio/ignite/p2.png"
+        ],
+        "url": "https://ignite-find-games.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          }
+        ]
+      },
+      {
+        "title": "yourKart - E-Commerce",
+        "description": "Phone Store.Paypal integration",
+        "images": [
+          "images/portfolio/yourKart/p1.png"
+        ],
+        "url": "https://your-kart.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "The University of Texas at Arlington",
+        "title": "Student",
+        "years": "01/2021 - 08/2022",
+        "mainTech": [
+          "Mater of Science"
+        ],
+        "technologies": [
+          "Computer Science"
+        ],
+        "className":"fa fa-graduation-cap experience-icon",
+        "location": "Arlington, TX"
+      },
+      {
+        "company": "Orion Innovation",
+        "title": "Software Engineer",
+        "years": "03/2019 - 12/2020",
+        "mainTech": [
+          "Angular 7/8"
+        ],
+        "technologies": [
+          "Angular",
+          "Angular Material",
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "TypeScript",
+          "MySQL"
+        ],
+        "className":"fab fa-angular experience-icon",
+        "location":"Chennai, India"
+      },
+      {
+        "company": "RMK Enginnering College",
+        "title": "Student",
+        "years": "06/2015 - 05/2019",
+        "mainTech": [
+          "Bachelor of Engineering"
+        ],
+        "technologies": [
+          "Computer Science and Engineering"
+        ],
+        "className":"fa fa-graduation-cap experience-icon",
+        "location":"Chennai, India"
+      }
+    ]
+  }

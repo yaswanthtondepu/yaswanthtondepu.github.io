@@ -1,0 +1,105 @@
+{
+    "basic_info": {
+      "name": "Yaswanth Tondepu",
+      "titles": [ "Web Developer","Front-end Developer", "Grad Student at UT Arlington" ],
+      "resume":"https://drive.google.com/file/d/1TWLahZEgdXqtxRT65ARpIpwgdaw_tuNU/view",
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/yaswanthtondepu",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/yaswanth-tondepu/",
+          "class": "fab fa-linkedin"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        },
+        {
+          "name": "Angular",
+          "class": "devicon-angularjs-plain"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain"
+        },
+        {
+          "name": "Sass",
+          "class": "devicon-sass-original"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-original"
+        },
+        {
+          "name": "Redux",
+          "class": "devicon-redux-plain"
+        },
+        
+        {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain"
+        },
+         
+        {
+          "name": "Spring Boot",
+          "class": "devicon-spring-plain"
+        },
+        
+        {
+          "name": "Flask",
+          "class": "devicon-flask-plain"
+        },
+         
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain"
+        },
+
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain"
+        },
+
+        {
+          "name": "Express.js",
+          "class": "devicon-express-original"
+        },
+
+         {
+          "name": "Jira",
+          "class": "devicon-jira-plain"
+        },
+
+
+        {
+          "name": "MySql",
+          "class": "devicon-mysql-plain"
+        },
+        {
+          "name": "Sqlite",
+          "class": "devicon-sqlite-plain"
+        }
+      ]
+    }
+  }
