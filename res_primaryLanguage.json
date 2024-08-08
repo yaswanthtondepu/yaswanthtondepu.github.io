@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Yaswanth Tondepu.I enjoy creating websites. My goal is to always build products that provide pixel-perfect, performant experiences. I am actively contributing to open source projects and I have a passion for learning new technologies. I enjoy a good challenge and I'm always looking to push my limits",
+      "description": "👋 I'm Yaswanth.I enjoy creating websites. My goal is to always build products that provide pixel-perfect, performant experiences. I am actively contributing to open source projects and I have a passion for learning new technologies. I enjoy a good challenge and I'm always looking to push my limits",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -35,12 +35,12 @@
         ]
       },
       {
-        "title": "Walmart Split",
+        "title": "Splitzy",
         "description": "An easy way to add the walmart expenses to splitwise",
         "images": [
           "images/portfolio/walmartsplit/p1.png"
         ],
-        "url": "https://walmartsplit.vercel.app/",
+        "url": "https://splitzyy.vercel.app/",
         "technologies": [
           {
             "class": "devicon-react-original",
